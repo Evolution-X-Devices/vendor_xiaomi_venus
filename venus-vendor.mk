@@ -280,8 +280,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libcamxexternalformatutils \
-    audio.primary.lahaina \
-    liba2dpoffload \
+    audio.primary.venus \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -298,7 +297,6 @@ PRODUCT_PACKAGES += \
     libhdmipassthru \
     libqtigef \
     libresampler \
-    libssrec \
     HDR10plus \
     com.qti.eeprom.venus_semco_s5khmx_m24c128x_wide_eeprom \
     com.qti.eeprom.venus_sunny_ov13b10_gt24p64_ultra_eeprom \
@@ -613,6 +611,8 @@ PRODUCT_PACKAGES += \
     misound_karaokemix_res \
     misound_res_headphone \
     misound_res_spk \
+    liba2dpoffload_odm \
+    libssrec_odm \
     batterysecret \
     init.qcom.sensors \
     sensors.qti \
